@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filters</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="./main.css">
+
+</head>
+
+<body>
+ 
+    <section class="main-section ">
+        <header class="header">
+            <p class="logo">e!</p>
+            <section class="login-and-create-ac">
+                 
+                <button class="login" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+         
+
+                <button class="button create-account"data-bs-toggle="modal" data-bs-target="#createAccountModal">Create An Account</button>
+                <!-- <button type="button" class="create-account p-1 btn btn-outline-light bg-transparent rounded-3 f-6 text-white" data-bs-toggle="modal" data-bs-target="#createAccountModal">Create An Account</button> -->
+
+            </section>
+
+
+        </header>
+
+    </section>
+ 
+
+
+
+    <!-- Create Account -->
+<div class="modal fade" id="createAccountModal" tabindex="-1" aria-labelledby="createAccountModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="createAccountModalLabel">Create an Account</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Create a/c form -->
+          
+          <form>
+
+            <div class="mb-3">
+               
+                <input type="text" class="form-control" id="name" placeholder="First Name" required>
+              </div>
+              <div class="mb-3">
+               
+                <input type="text" class="form-control" id="surname" placeholder="Last Name" required>
+              </div>
+
+            <div class="mb-3">
+               
+              <input type="email" class="form-control" id="email" placeholder="Email" required>
+            </div>
+            <div class="mb-3">
+               
+              <input type="password" class="form-control" id="password" placeholder="Password"   required>
+            </div>
+
+            <div class="mb-3">
+                               <input type="password" class="form-control" id="password" placeholder="Confirm Password"   required>
+              </div>
+
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-danger buttoncolor">Create Account</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Create Login create Account -->
+  
+<div class="modal fade" id="loginModal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Login</h4>
+                 
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" class="form-control" id="username" placeholder="Enter username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter password">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger buttoncolor text-light" id="forgotPassword">Forgot Password?</button>
+                <button type="button" class="btn btn-danger buttoncolor text-light "  id="resetPassword">Reset Password</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- ==========================
+     Section 2 
+=========================== -->
+
+
+
+    <div class="breakfast-places">
+        Breakfast Places in Texas
+    </div>
+
+
+    <main class="main-class">
+        <div class="container-filters">
+            <div class="inner-input">
+                <p class="filters">Filters</p>
+                <p class="select-location">Select Location</p>
+                <div>
+
+                    <select name="" id="locations-input">
+                        <option value="Select Location">Select Location</option>
+                        <option value="">North Dallas</option>
+                        <option value="">South Dallas</option>
+                        <option value="">Plano</option>
+                        <option value="">Richardson</option>
+                        <option value="">Grand Praire</option>
+                    </select>
+
+
+                </div>
+                <!-- cuisine subject -->
+                <div class="cuisine element"> Cuisine</div>
+                <!-- end of cuisine subject -->
+
+                <!-- cuisine  list -->
+                <div class="element">
+                    <div>
+                        <input type="checkbox" class="checkbox">
+                        <label for="north-indian">North/South Indian</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" class="checkbox" checked>
+                        <label for="italian">Italian</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" class="checkbox" checked>
+                        <label for="chinese">Chinese</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" class="checkbox">
+                        <label for="african">African</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" class="checkbox">
+                        <label for="asian">Asian</label>
+                    </div>
+                </div>
+                <!-- end of cuisine list -->
+
+                <!-- cost for two menu -->
+                <p class="cost-for-two">Cost For Two</p>
+                <div>
+                    <input type="radio" class="checkbox">
+                    <label for="" class="less-than-six">Less than $6</label>
+                </div>
+                <div>
+                    <input type="radio" class="checkbox">
+                    <label for="">`$6 to $12</label>
+                </div>
+                <div>
+                    <input type="radio" class="checkbox">
+                    <label for="">`$12 to $18</label>
+                </div>
+                <div>
+                    <input type="radio" class="checkbox">
+                    <label for="">`$18 to $24</label>
+                </div>
+                <div>
+                    <input type="radio" class="checkbox">
+                    <label for="">`$24+</label>
+                </div>
+                <!-- end of cost for two menu -->
+
+                <!-- begin Sort column -->
+                <p class="sort">Sort</p>
+
+                <div>
+                    <input type="radio" class="checkbox">
+                    <label for="" class="price-low-to-high"> Price low to high</label>
+                </div>
+                <div>
+                    <input type="radio" class="checkbox">
+                    <label for="">Price high to low</label>
+                </div>
+                <!-- end Sort column -->
+
+            </div>
+
+        </div>
+
+
+
+        <div class="two-containers">
+            <div class="div-container">
+                <div class="image">
+                    <div><img src="./images/shutterstock_1154073754-1.png" alt="food plate" class="image-section"></div>
+                    <div class="title">
+                        <!-- The Bill chilli cakery section  -->
+                        <p class="big-image-title">The Big Chill Cakery </p>
+                        <p class="location-title">DALLAS</p>
+                        <p class="location-title2">Eastern Plaza, 5455, Plano, Texas</p>
+
+                    </div>
+
+
+                </div>
+                <div>
+                    <hr class="hr-element">
+                    <p class="last-part">CUISINES: <span class="spacer backery-color-change"></span> Backery </p>
+                    <p class="last-part">COST FOR TWO: <span class="spacer2 backery-color-change"></span> $8.50</p>
+
+
+                </div>
+
+            </div>
+
+            <div class="div-container">
+                <div class="image">
+                    <div><img src="./images/shutterstock_1154073754-1.png" alt="food plate" class="image-section"></div>
+                    <div class="title">
+                        <!-- The Bill chilli cakery section  -->
+                        <p class="big-image-title">The Bake Shop </p>
+                        <p class="location-title">DALLAS</p>
+                        <p class="location-title2">Eastern Plaza, 5455, Plano, Texas</p>
+
+                    </div>
+
+
+
+                </div>
+                <div>
+                    <hr class="hr-element">
+                    <p class="last-part">CUISINES: <span class="spacer backery-color-change"></span> Backery</p>
+                    <p class="last-part">COST FOR TWO: <span class="spacer2 backery-color-change"></span> $8.50</p>
+
+
+                </div>
+
+            </div>
+<!-- pagination (pages 1....5  -->
+
+
+
+<div class="pagination-boxes">
+    <div class="boxes">
+        <a href="#" class="box"><</a>
+        <a href="#" class="active box box2">1</a>
+        <a href="#" class="box">2</a>
+        <a href="#" class="box">3</a>
+        <a href="#" class="box">4</a>
+        <a href="#" class="box">5</a>
+        <a href="#" class="box">></a>
+
+
+    </div>
+
+
+
+</div>
+
+
+
+
+        </div>
+
+        
+    </main>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+    </body>
+</html>

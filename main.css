@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 1366px;
+    height: 973px;
+    background: #FBFBFB 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.main-section {
+    width: 100%;
+    height: 80px;
+    opacity: 1;
+    
+    
+
+
+}
+
+
+
+.header {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    height: 70px;
+    width: 100%;
+
+}
+
+.logo {
+
+    width: 40px;
+    height: 40px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-left: 1px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50%;
+    color: red;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 12px;
+    margin-left: 90px;
+
+}
+
+.buttoncolor{
+    background-color: #ff0000;
+   
+    
+}
+
+p {
+    margin-bottom: 0 !important;
+
+}
+
+
+
+
+.login-and-create-ac {
+
+    font-size: larger;
+    margin-right: 60px;
+
+}
+
+
+.button {
+    color: white;
+    padding-bottom: 08px;
+    margin-right: 25px;
+    margin-top: 15px;
+
+}
+
+.button:hover {
+    background-color:whitesmoke;
+    color: red;
+    opacity: 1;
+  
+     
+
+}
+
+.pagination-boxes .boxes a:link{
+background-color: black;
+color: wheat;
+
+}
+
+
+.login {
+
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: Poppins'San sarif';
+     
+}
+
+.create-account {
+
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: Poppins;
+    padding: 8px;
+    margin-bottom: 12px;
+    
+    
+
+}
+
+/* .backery-color-change{
+    color: 192F60;
+    padding-left: 100px;
+
+}
+ */
+
+
+
+.create-account:active {
+    background-color: white;
+}
+
+/*********************
+* Section 2  *
+/******************** */
+
+
+/* breakfast places */
+.breakfast-places {
+
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 514px;
+    height: 51px;
+    font: normal normal bold 36px/55px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+
+}
+
+
+
+/* .container-filters */
+
+.container-filters {
+
+    margin: 90px;
+    margin-top: 2px;
+    left: 113px;
+    width: 260px;
+    height: 682px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 3px gray;
+    opacity: 1;
+
+}
+
+.inner-input {
+    margin-top: 20px;
+    margin-left: 26px;
+
+
+}
+
+/* Filters */
+.filters {
+    color: #192F60;
+    font-size: 18px;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+
+}
+
+
+/* select location */
+
+.select-location {
+    padding-top: 10px;
+    font: normal normal normal 14px/21px Poppins;
+    color: #192F60;
+    font-weight: bold;
+    opacity: 1;
+
+}
+
+/* select location input   */
+#locations-input {
+    margin-top: 20px;
+    width: 208px;
+    height: 35px;
+    border: 1px solid #8C96AB;
+    opacity: 1;
+}
+
+.cuisine {
+    margin-top: 20px;
+    width: 52px;
+    height: 20px;
+    font: normal normal normal 14px/21px Poppins;
+    color: #192F60;
+    font-size: medium;
+    font-weight: 600;
+    opacity: 1;
+
+
+}
+
+
+.main-class {
+    display: flex;
+    gap: 2px;
+}
+
+
+.div-container {
+
+    width: 794px;
+    height: 291px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+
+
+}
+
+/* image section */
+.image {
+    display: flex;
+
+
+}
+
+.image-section {
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 30px;
+    top: 220px;
+    left: 453px;
+    width: 120px;
+    height: 120px;
+    opacity: 1;
+
+
+}
+
+
+
+/* The Bill chilli cakery  section*/
+.title {
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-top: 12px;
+
+
+}
+
+
+.big-image-title {
+    margin-top: 20px;
+    width: 303px;
+    height: 43px;
+    text-align: left;
+    font: normal normal 600 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+
+.location-title {
+    width: 30px;
+    height: 23px;
+    font-size: 16px;
+    font-weight: bold;
+    font: normal normal medium 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+
+}
+
+.checkbox {
+    margin-bottom: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+
+}
+
+.radio {
+    padding-bottom: 12px;
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    padding-bottom: 12px;
+
+
+}
+
+.cost-for-two {
+    margin-top: 12px;
+    font-size: medium;
+    font-weight: 600;
+
+}
+
+
+.less-than-six {
+    margin-top: 16px;
+}
+
+
+.sort {
+    margin-top: 12px;
+    font: normal normal 600 18px/27px Poppins;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+
+}
+
+.price-low-to-high {
+    margin-top: 18px;
+
+}
+
+.two-containers {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+
+}
+
+
+.hr-element {
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    box-shadow: 0 2px 4px #00000029 (0, 0, 0, 0.5);
+
+
+}
+
+
+
+.last-part {
+    margin-left: 30px;
+    padding-top: 10px;
+
+
+}
+
+.element {
+    margin-bottom: 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.spacer {
+    display: inline-block;
+    width: 75px;
+
+}
+
+.spacer2 {
+    display: inline-block;
+    width: 30px;
+
+}
+
+
+.italian:checked+label,
+.chinese:checked+label {
+    accent-color: #8C96AB;
+
+}
+
+
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+
+
+}
+
+
+.box {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #8C96AB;
+    text-align: center;
+    border-radius: 7px;
+    text-decoration: none;
+    line-height: 30px;
+    margin-inline-start: 15px;
+    font-size: 18px;
+    background: white 0% 0% no-repeat padding-box;
+    color: #8C96AB;
+    opacity: 1;
+
+}
+
+
+.pagination-boxes a.active {
+    font-weight: bolder;
+    background: rgba(128, 128, 128, 0.89) 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+    border-radius: 7px;
+    opacity: 1;
+
+}
+
+
+
+
+.boxes a:hover:not(.active) {
+    background-color: grey;
+    color: #FFFFFF;
+    font-weight: bolder;
+
+
+}
+
